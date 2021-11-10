@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Starting point
-permalink: /pages/dm/d1
 parent: Data Management
 nav_order: 1
 ---

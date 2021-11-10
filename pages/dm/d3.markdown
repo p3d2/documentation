@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Name convention
-permalink: /pages/dm/d3
 parent: Data Management
 nav_order: 3
 ---

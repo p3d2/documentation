@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Folder Tree
-permalink: /pages/dm/d2
 parent: Data Management
 nav_order: 2
 ---
