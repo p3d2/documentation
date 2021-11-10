@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Links
-parent: Escaping characters
+title: Escaping characters
+parent: Markdown Syntax
 nav_order: 9
 ---
 
