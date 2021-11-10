@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Data Management
+has_children: true
 permalink: /pages/dm/dm
 nav_order: 1
 ---
