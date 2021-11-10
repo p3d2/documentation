@@ -1,0 +1,20 @@
+---
+layout: page
+title: Starting point
+permalink: /pages/dm/d1
+parent: Data Management
+nav_order: 1
+---
+
+## 1. Starting points
+
+1. When users integrate a project, they should be added to the Teams folder. If someone works in multiple projects at the same time, then multiple separate folders should be created on each project
+2. Install Teams
+3. Log in with Aalto account
+4. Go to `Teams` > `MMD` > `Project` > `Files` > **Click on Sync** 
+(*if some permissions are asked, confirm that it is ok*)
+
+	-- OPTIONAL --
+
+5. Install a markdown editor
+6. Install PowerToys (Windows users only) for preview md files on windows side pane
