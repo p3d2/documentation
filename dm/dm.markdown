@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Data Management
-permalink: /dm/
+permalink: /dm/dm
+nav_order: 1
 ---
 
 # Guide for data management of MMD
