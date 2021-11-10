@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48.307232mm"
+   height="48.310001mm"
+   viewBox="0 0 48.307232 48.310001"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="wikiLogo.svg"
+   inkscape:export-filename="Z:\Documents\wikiLogo.png"
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:zoom="1.4930696"
+     inkscape:cx="-55.255295"
+     inkscape:cy="153.04042"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-69.577086,-80.145226)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.31749px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="90.633453"
+       y="99.599815"
+       id="text2991"><tspan
+         sodipodi:role="line"
+         id="tspan2989"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.264583"
+         x="90.633453"
+         y="99.599815">MMD</tspan></text>
+    <path
+       id="path4561"
+       style="fill:none;stroke:#000000;stroke-width:1.32292;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 117.22286,96.932579 A 16.125895,16.125895 0 0 1 101.09696,113.05847 16.125895,16.125895 0 0 1 84.971067,96.932579 16.125895,16.125895 0 0 1 101.09696,80.806684 16.125895,16.125895 0 0 1 117.22286,96.932579 Z" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.661458;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path4561-0"
+       sodipodi:type="arc"
+       sodipodi:cx="98.345329"
+       sodipodi:cy="96.400955"
+       sodipodi:rx="15.06265"
+       sodipodi:ry="15.06265"
+       sodipodi:start="5.8894404"
+       sodipodi:end="0.52359878"
+       sodipodi:arc-type="arc"
+       d="m 112.25537,90.622178 a 15.06265,15.06265 0 0 1 -0.8654,13.310102"
+       sodipodi:open="true" />
+    <path
+       id="rect5347"
+       style="fill:#dec7f9;fill-opacity:1;stroke:#000000;stroke-width:0.661458;stroke-linecap:round"
+       d="m 85.62183,107.14491 5.262798,5.2628 -14.636444,14.63753 c -1.441965,1.44306 -3.798684,1.44304 -5.25226,-0.0105 -1.453579,-1.45357 -1.453584,-3.8103 -4e-6,-5.26388 z"
+       sodipodi:nodetypes="cccscc" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.661458;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect5349"
+       width="3.6327562"
+       height="2.0378878"
+       x="138.21165"
+       y="13.181233"
+       transform="rotate(45)" />
+  </g>
+</svg>
