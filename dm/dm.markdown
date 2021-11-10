@@ -17,5 +17,3 @@ nav_order: 1
 5. Publish
 6. Report data to ACRIS
 7. Archive
-
-{:toc}
