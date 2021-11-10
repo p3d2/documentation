@@ -1,0 +1,504 @@
+---
+layout: page
+title: Lists
+parent: Markdown Syntax
+nav_order: 6
+---
+
+You can organize items into ordered and unordered lists.
+
+To create an ordered list, add line items with numbers followed by periods. The numbers don't have to be in numerical order, but the list should start with the number one.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>
+      <code class="highlighter-rouge">
+        1. First item<br/>
+        2. Second item<br/>
+        3. Third item<br/>
+        4. Fourth item
+      </code>
+    </td>
+    <td>
+      <code class="highlighter-rouge">
+        &lt;ol&gt;<br>
+          &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+          &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+          &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+          &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+        &lt;/ol&gt;
+      </code>
+    </td>
+    <td>
+      <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+      </ol>
+    </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          1. First item<br/>
+          1. Second item<br/>
+          1. Third item<br/>
+          1. Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ol&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ol&gt;
+        </code>
+      </td>
+      <td>
+        <ol>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          1. First item<br/>
+          8. Second item<br/>
+          3. Third item<br/>
+          5. Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ol&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ol&gt;
+        </code>
+      </td>
+      <td>
+        <ol>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          1. First item<br/>
+          2. Second item<br/>
+          3. Third item<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;1. Indented item<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;2. Indented item<br/>
+          4. Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ol&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;ol&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ol&gt;<br/>
+            &nbsp;&nbsp;&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ol&gt;
+        </code>
+      </td>
+      <td>
+        <ol>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item
+            <ol>
+              <li>Indented item</li>
+              <li>Indented item</li>
+            </ol>
+          </li>
+          <li>Fourth item</li>
+        </ol>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Ordered List Best Practices
+
+CommonMark and a few other lightweight markup languages let you use a parenthesis (`)`) as a delimiter (e.g., `1) First item`), but not all Markdown applications support this, so it isn’t a great option from a compatibility perspective. For compatibility, use periods only.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          1. First item<br>
+          2. Second item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          1) First item<br>
+          2) Second item
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front of line items. Indent one or more items to create a nested list.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          - First item<br/>
+          - Second item<br/>
+          - Third item<br/>
+          - Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          * First item<br/>
+          * Second item<br>
+          * Third item<br/>
+          * Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          + First item<br/>
+          + Second item<br/>
+          + Third item<br/>
+          + Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          - First item<br/>
+          - Second item<br/>
+          - Third item<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br/>
+          - Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br/>
+            &nbsp;&nbsp;&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item
+            <ul>
+              <li>Indented item</li>
+              <li>Indented item</li>
+            </ul>
+          </li>
+          <li>Fourth item</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Starting Unordered List Items With Numbers
+
+If you need to start an unordered list item with a number followed by a period, you can use a backslash (`\`) to [escape](#escaping-characters) the period.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          - 1968\. A great year!<br/>
+          - I think 1969 was second best.
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;1968. A great year!&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;I think 1969 was second best.&lt;/li&gt;<br/>
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>1968. A great year!</li>
+          <li>I think 1969 was second best.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Unordered List Best Practices
+
+Markdown applications don’t agree on how to handle different delimiters in the same list. For compatibility, don't mix and match delimiters in the same list — pick one and stick with it.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          - First item<br>
+          - Second item<br>
+          - Third item<br>
+          - Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          + First item<br>
+          * Second item<br>
+          - Third item<br>
+          + Fourth item
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Adding Elements in Lists
+
+To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab, as shown in the following examples.
+
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> <strong>Tip:</strong> If things don't appear the way you expect, double check that you've indented the elements in the list four spaces or one tab.
+</div>
+
+#### Paragraphs
+
+```
+* This is the first list item.
+* Here's the second list item.
+
+    I need to add another paragraph below the second list item.
+
+* And here's the third list item.
+```
+
+The rendered output looks like this:
+
+* This is the first list item.
+* Here's the second list item.
+
+    I need to add another paragraph below the second list item.
+
+* And here's the third list item.
+
+#### Blockquotes
+
+```
+* This is the first list item.
+* Here's the second list item.
+
+    > A blockquote would look great below the second list item.
+
+* And here's the third list item.
+```
+
+The rendered output looks like this:
+
+* This is the first list item.
+* Here's the second list item.
+
+    > A blockquote would look great below the second list item.
+
+* And here's the third list item.
+
+#### Code Blocks {#code-blocks-1}
+
+[Code blocks](#code-blocks) are normally indented four spaces or one tab.  When they're in a list, indent them eight spaces or two tabs.
+
+```text
+1. Open the file.
+2. Find the following code block on line 21:
+
+        <html>
+          <head>
+            <title>Test</title>
+          </head>
+
+3. Update the title to match the name of your website.
+```
+
+The rendered output looks like this:
+
+1. Open the file.
+2. Find the following code block on line 21:
+
+    ```text
+    <html>
+      <head>
+        <title>Test</title>
+      </head>
+    ```
+
+3. Update the title to match the name of your website.
+
+#### Images
+
+```
+1. Open the file containing the Linux mascot.
+2. Marvel at its beauty.
+
+    ![Tux, the Linux mascot](/img/tux.png)
+
+3. Close the file.
+```
+
+The rendered output looks like this:
+
+1. Open the file containing the Linux mascot.
+2. Marvel at its beauty.
+
+    ![Tux, the Linux mascot](/img/tux.png)
+
+3. Close the file.
+
+#### Lists
+
+You can nest an unordered list in an ordered list, or vice versa.
+
+```
+1. First item
+2. Second item
+3. Third item
+    - Indented item
+    - Indented item
+4. Fourth item
+```
+
+The rendered output looks like this:
+
+1. First item
+2. Second item
+3. Third item
+    - Indented item
+    - Indented item
+4. Fourth item

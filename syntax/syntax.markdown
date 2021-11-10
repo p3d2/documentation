@@ -2,6 +2,7 @@
 layout: page
 title: Markdown Syntax
 permalink: /syntax/syntax
+has_children: true
 nav_order: 2
 ---
 
