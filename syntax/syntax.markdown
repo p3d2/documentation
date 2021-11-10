@@ -252,9 +252,116 @@ There are two other options I don't recommend using. CommonMark and a few other 
 
 You can add emphasis by making text bold or italic.
 
-{% include syntax.html type="basic-sub" syntax-id="bold" %}
+To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
 
-{% include syntax.html type="basic-sub" syntax-id="italic" %}
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">I just love **bold text**.</code></td>
+      <td><code class="highlighter-rouge">I just love &lt;strong&gt;bold text&lt;/strong&gt;.</code></td>
+      <td>I just love <strong>bold text</strong>.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">I just love __bold text__.</code></td>
+      <td><code class="highlighter-rouge">I just love &lt;strong&gt;bold text&lt;/strong&gt;.</code></td>
+      <td>I just love <strong>bold text</strong>.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">Love**is**bold</code></td> <td><code class="highlighter-rouge">Love&lt;strong&gt;is&lt;/strong&gt;bold</code></td>
+      <td>Love<strong>is</strong>bold</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Bold Best Practices
+
+Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to bold the middle of a word for emphasis.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          Love**is**bold
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          Love__is__bold
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">Italicized text is the *cat's meow*.</code></td>
+      <td><code class="highlighter-rouge">Italicized text is the &lt;em&gt;cat's meow&lt;/em&gt;.</code></td>
+      <td>Italicized text is the <em>cat’s meow</em>.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">Italicized text is the _cat's meow_.</code></td>
+      <td><code class="highlighter-rouge">Italicized text is the &lt;em&gt;cat's meow&lt;/em&gt;.</code></td>
+      <td>Italicized text is the <em>cat’s meow</em>.</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">A*cat*meow</code></td>
+      <td><code class="highlighter-rouge">A&lt;em&gt;cat&lt;/em&gt;meow</code></td>
+      <td>A<em>cat</em>meow</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Italic Best Practices
+
+Markdown applications don't agree on how to handle underscores in the middle of a word. For compatibility, use asterisks to italicize the middle of a word for emphasis.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          A*cat*meow
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          A_cat_meow
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Bold and Italic
 
@@ -427,9 +534,381 @@ For compatibility, put blank lines before and after blockquotes.
 
 You can organize items into ordered and unordered lists.
 
-{% include syntax.html type="basic-sub" syntax-id="ordered-lists" %}
+To create an ordered list, add line items with numbers followed by periods. The numbers don't have to be in numerical order, but the list should start with the number one.
 
-{% include syntax.html type="basic-sub" syntax-id="unordered-lists" %}
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>
+      <code class="highlighter-rouge">
+        1. First item<br/>
+        2. Second item<br/>
+        3. Third item<br/>
+        4. Fourth item
+      </code>
+    </td>
+    <td>
+      <code class="highlighter-rouge">
+        &lt;ol&gt;<br>
+          &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+          &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+          &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+          &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+        &lt;/ol&gt;
+      </code>
+    </td>
+    <td>
+      <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+      </ol>
+    </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          1. First item<br/>
+          1. Second item<br/>
+          1. Third item<br/>
+          1. Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ol&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ol&gt;
+        </code>
+      </td>
+      <td>
+        <ol>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          1. First item<br/>
+          8. Second item<br/>
+          3. Third item<br/>
+          5. Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ol&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ol&gt;
+        </code>
+      </td>
+      <td>
+        <ol>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          1. First item<br/>
+          2. Second item<br/>
+          3. Third item<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;1. Indented item<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;2. Indented item<br/>
+          4. Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ol&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;ol&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ol&gt;<br/>
+            &nbsp;&nbsp;&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ol&gt;
+        </code>
+      </td>
+      <td>
+        <ol>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item
+            <ol>
+              <li>Indented item</li>
+              <li>Indented item</li>
+            </ol>
+          </li>
+          <li>Fourth item</li>
+        </ol>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Ordered List Best Practices
+
+CommonMark and a few other lightweight markup languages let you use a parenthesis (`)`) as a delimiter (e.g., `1) First item`), but not all Markdown applications support this, so it isn’t a great option from a compatibility perspective. For compatibility, use periods only.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          1. First item<br>
+          2. Second item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          1) First item<br>
+          2) Second item
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+To create an unordered list, add dashes (`-`), asterisks (`*`), or plus signs (`+`) in front of line items. Indent one or more items to create a nested list.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          - First item<br/>
+          - Second item<br/>
+          - Third item<br/>
+          - Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          * First item<br/>
+          * Second item<br>
+          * Third item<br/>
+          * Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          + First item<br/>
+          + Second item<br/>
+          + Third item<br/>
+          + Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          - First item<br/>
+          - Second item<br/>
+          - Third item<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;- Indented item<br/>
+          - Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;First item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Second item&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Third item<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Indented item&lt;/li&gt;<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br/>
+            &nbsp;&nbsp;&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br/>
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item
+            <ul>
+              <li>Indented item</li>
+              <li>Indented item</li>
+            </ul>
+          </li>
+          <li>Fourth item</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Starting Unordered List Items With Numbers
+
+If you need to start an unordered list item with a number followed by a period, you can use a backslash (`\`) to [escape](#escaping-characters) the period.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>HTML</th>
+      <th>Rendered Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          - 1968\. A great year!<br/>
+          - I think 1969 was second best.
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;1968. A great year!&lt;/li&gt;<br/>
+            &nbsp;&nbsp;&lt;li&gt;I think 1969 was second best.&lt;/li&gt;<br/>
+          &lt;/ul&gt;
+        </code>
+      </td>
+      <td>
+        <ul>
+          <li>1968. A great year!</li>
+          <li>I think 1969 was second best.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### Unordered List Best Practices
+
+Markdown applications don’t agree on how to handle different delimiters in the same list. For compatibility, don't mix and match delimiters in the same list — pick one and stick with it.
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code class="highlighter-rouge">
+          - First item<br>
+          - Second item<br>
+          - Third item<br>
+          - Fourth item
+        </code>
+      </td>
+      <td>
+        <code class="highlighter-rouge">
+          + First item<br>
+          * Second item<br>
+          - Third item<br>
+          + Fourth item
+        </code>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Adding Elements in Lists
 
@@ -821,12 +1300,12 @@ Markdown applications don't agree on how to handle spaces in the middle of a URL
 To add an image, add an exclamation mark (`!`), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.
 
 ```
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![This is this wiki logo!](/img/wikiLogo.png "Wiki Logo")
 ```
 
 The rendered output looks like this:
 
-{% include image.html file="/assets/images/san-juan-mountains.jpg" alt="The San Juan Mountains are beautiful!" title="San Juan Mountains" lazy="yes" %}
+![This is this wiki logo!](/img/wikiLogo.png "Wiki Logo")
 
 ### Linking Images
 
@@ -838,8 +1317,4 @@ To add a link to an image, enclose the Markdown for the image in brackets, and t
 
 The rendered output looks like this:
 
-<div>
-  <a href="https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv" class="no-underline">
-  {% include image.html file="/assets/images/shiprock.jpg" alt="An old rock in the desert" title="Shiprock, New Mexico by Beau Rogers" lazy="yes" %}
-  </a>
-</div>
+[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
