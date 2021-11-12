@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Awesome MMD wiki
 baseurl: "/documentation" # the subpath of your site, e.g. /blog
 # Build settings
-logo: "/img/wikiLogo.png"
+logo: "/img/wikiLogo.svg"
 
 theme: "just-the-docs"
 remote_theme: pmarsceill/just-the-docs
