@@ -5,7 +5,7 @@ parent: Data Management
 nav_order: 2
 ---
 
-## 2. Folder tree
+## Folder tree
 
 ```
 Project/
