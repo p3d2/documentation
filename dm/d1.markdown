@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Starting point
+title: How to start
 parent: Data Management
 nav_order: 1
 ---
 
-## 1. Starting points
+## How to start
 
 1. When users integrate a project, they should be added to the Teams folder. If someone works in multiple projects at the same time, then multiple separate folders should be created on each project
 2. Install Teams
@@ -17,3 +17,5 @@ nav_order: 1
 
 5. Install a markdown editor
 6. Install PowerToys (Windows users only) for preview md files on windows side pane
+
+[Folder Tree](/dm/d2.html){: .btn }
