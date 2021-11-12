@@ -9,28 +9,28 @@ nav_order: 2
 
 ```bash
 Project/
-├───Ethics
-├───Management
-│   ├───Finances
-│   ├───Proposals
-│   └───Reports
-├───Outputs
-│   ├───Conferences
-│   ├───Guides
-│   ├───Outreach
-│   ├───Publications
-│   ├───Teaching
-│   ├───Thesis
-│   └───Webpage materials
+├─── Ethics
+├─── Management
+│   ├─── Finances
+│   ├─── Proposals
+│   └─── Reports
+├─── Outputs
+│   ├─── Conferences
+│   ├─── Guides
+│   ├─── Outreach
+│   ├─── Publications
+│   ├─── Teaching
+│   ├─── Thesis
+│   └─── Webpage materials
 ├───Raw Data
-│   ├───Multimedia
-│   ├───Numeric
-│   └───Text
+│   ├─── Multimedia
+│   ├─── Numeric
+│   └─── Text
 └───Users
-    ├───User 1
-    ├───User 2
-    ├───...
-    └───User N
+    ├─── User 1
+    ├─── User 2
+    ├─── ...
+    └─── User N
 ```
 
 - Ethics and Management are intended for project management only
