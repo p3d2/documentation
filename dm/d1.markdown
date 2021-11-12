@@ -18,4 +18,6 @@ nav_order: 1
 5. Install a markdown editor
 6. Install PowerToys (Windows users only) for preview md files on windows side pane
 
-[Folder Tree](/dm/d2.html){: .btn }
+<span class="fs-3" align=right>
+[Folder Tree](/documentation/dm/d2.html){: .btn }
+</span>

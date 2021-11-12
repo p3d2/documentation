@@ -43,4 +43,11 @@ Project/
 - **README** and other guides can be found on `Guides for DM`. Create your template if you find it useful for a specific technique.
 For instance, a README template for the microscope can have already some pre-filled fields and description that is duplicated from experiment to experiment and specific info that should always be mentioned, like magnification or scale bar info.
 
-Check `markdown-cheat-sheet.md` for the syntax (basic elements like heading, bold, italic, etc.)  
+Check `markdown-cheat-sheet.md` for the syntax (basic elements like heading, bold, italic, etc.)
+
+<span class="fs-3" align=left>
+[How to start](/documentation/dm/d1.html){: .btn }
+</span>
+<span class="fs-3" align=right>
+[Name convention](/documentation/dm/d3.html){: .btn }
+</span>
