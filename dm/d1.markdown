@@ -13,6 +13,8 @@ nav_order: 1
 4. Go to `Teams` > `MMD` > `Project` > `Files` > **Click on Sync** 
 (*if some permissions are asked, confirm that it is ok*)
 
+![Teams help image](/documentation/img/teams.png)
+
 	-- OPTIONAL --
 
 5. Install a markdown editor
