@@ -7,6 +7,6 @@ In this website you can find all information related with the data management of
 
 Currently available guides:
 
-<p style="text-align:center;"> [Data Management](/documentation/dm/dm)  </p>
+<a href="/documentation/dm/dm"><h1 style="text-align:center;"> Data Management </h1></a>
 
-<p style="text-align:center;"> [Markdown Syntax](/documentation/syntax/syntax)  </p>
+<a href="/documentation/syntax/syntax"><h1 style="text-align:center;"> Markdown Syntax </h1></a>
