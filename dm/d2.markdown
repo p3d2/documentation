@@ -30,7 +30,7 @@ Project/
 │&nbsp;&nbsp; ├── User B/
 │&nbsp;&nbsp; ├── User .../
 
-- Ethics and Management is for project management only
+- Ethics and Management are intended for project management only
 - Upload all unprocessed data in `Raw Data` folders and create a README.md file for each experiment
 	- Text data include databases, survey (txt, doc, ...)
 	- Numeric data include all numerical measurements (csv, spss, xls)
