@@ -19,7 +19,3 @@ nav_order: 1
 7. Archive
 
 More information about **[Research Data Management (RDM) and Open Science](https://www.aalto.fi/en/services/research-data-management-rdm-and-open-science)**
-
-<span class="fs-3" style="float: right;">
-[How to start](/documentation/dm/d1.html){: .btn }
-</span>
