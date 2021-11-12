@@ -7,5 +7,5 @@ In this website you can find all information related with the data management of
 
 Currently available guides:
 
-<p style="text-align:center;"><[# Data Management](/documentation/dm/dm/)</p>
-<p style="text-align:center;">[# Markdown Syntax](/documentation/syntax/syntax/)</p>
+<p style="text-align:center;"># [Data Management](/documentation/dm/dm/)</p>
+<p style="text-align:center;"># [Markdown Syntax](/documentation/syntax/syntax/)</p>
