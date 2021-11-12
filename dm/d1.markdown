@@ -15,6 +15,8 @@ nav_order: 1
 
 ![Teams help image](/documentation/img/teams.png)
 
+_________________
+
 	-- OPTIONAL --
 
 5. Install a markdown editor
