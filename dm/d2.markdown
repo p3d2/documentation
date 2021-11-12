@@ -13,7 +13,7 @@ Project/
 ├─ Management/
 │  ├─ Finances/
 │  ├─ Proposals/
-│  ├─ Reports/
+│  └─  Reports/
 ├─ Outputs/
 │  ├─ Conferences/
 │  ├─ Guides/
@@ -21,15 +21,15 @@ Project/
 │  ├─ Publications/
 │  ├─ Teaching/
 │  ├─ Thesis/
-│  ├─ Webpage materials/
+│  └─ Webpage materials/
 ├─ Raw Data/
 │  ├─ Multimedia/
 │  ├─ Numeric/
-│  ├─ Text/
-├─ User/
-│  ├─ User A/
-│  ├─ User B/
-│  ├─ User .../
+│  └─ Text/
+└── User/
+   ├─ User A/
+   ├─ User B/
+   └─ User .../
 ```
 
 - Ethics and Management are intended for project management only
