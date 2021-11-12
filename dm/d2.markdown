@@ -42,7 +42,7 @@ Project/
 	- Subfolders should have YYYMMDD-Tag format
 - Users folder should include all processed data; no specific folder organization is imposed at this level but keep it user-friendly
 - Outputs should include final documents and useful data (documents can be still updated if required)
-- **README** and other guides can be found on `Guides for DM`. Create your template if you find it useful for a specific technique.
+- **README** and other guides can be found on `General/Data Management/READ.me files`. Create your template if you find it useful for a specific technique.
 For instance, a README template for the microscope can have already some pre-filled fields and description that is duplicated from experiment to experiment and specific info that should always be mentioned, like magnification or scale bar info.
 
 Check `markdown-cheat-sheet.md` for the syntax (basic elements like heading, bold, italic, etc.)
