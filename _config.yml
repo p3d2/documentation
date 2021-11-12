@@ -30,7 +30,7 @@ twitter_username: silva_phd
 github_username:  p3d2
 
 # Build settings
-logo: "https://github.com/p3d2/documentation/blob/main/img/wikiLogo.png?raw=true"
+logo: "https://github.com/p3d2/documentation/blob/main/img/wikiLogo.png"
 
 theme: "just-the-docs"
 remote_theme: pmarsceill/just-the-docs
