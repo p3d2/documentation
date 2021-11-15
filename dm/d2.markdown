@@ -25,8 +25,8 @@ For instance, a README template for the microscope can have already some pre-fil
 Check `markdown-cheat-sheet.md` for the syntax (basic elements like heading, bold, italic, etc.)
 
 <span class="fs-3">
-[How to start 🡸](/documentation/dm/d1.html){: .btn }
+[🡸 How to start](/documentation/dm/d1.html){: .btn }
 </span>
 <span class="fs-3" style="float: right;">
-[🡺 Name convention](/documentation/dm/d3.html){: .btn }
+[Name convention 🡺](/documentation/dm/d3.html){: .btn }
 </span>

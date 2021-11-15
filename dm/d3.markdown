@@ -21,8 +21,8 @@ Possible tags to name files:
 - ...
 
 <span class="fs-3">
-[Folder Tree](/documentation/dm/d2.html){: .btn }
+[🡸 Folder Tree](/documentation/dm/d2.html){: .btn }
 </span>
 <span class="fs-3" style="float: right;">
-[FAQ](/documentation/dm/d4.html){: .btn }
+[FAQ 🡺](/documentation/dm/d4.html){: .btn }
 </span>
