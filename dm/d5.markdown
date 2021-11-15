@@ -1,0 +1,26 @@
+---
+layout: page
+title: FAQ
+parent: Data Management
+nav_order: 5
+---
+
+## FAQ
+
+### How to make OneDrive files locally available?
+
+1. Open File Explorer.
+2. Navigate to the file or folder in question.
+3. Right-click on the file/folder.
+4. Click on **Always keep on this device**.
+
+### How to delete OneDrive files without removing them online?
+
+1. Open File Explorer.
+2. Navigate to the file or folder in question.
+3. Right-click on the file/folder.
+4. Click on **Free up space**.
+
+<span class="fs-3">
+[🡸 Readme files](/documentation/dm/d4.html){: .btn }
+</span>
