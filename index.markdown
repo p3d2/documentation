@@ -18,3 +18,9 @@ Currently available guides:
 		Markdown Syntax
 	</a>
 </h2>
+
+<h2 style="text-align:center;"> 
+	<a href="/documentation/ir/ir">
+		Infrared Camera Guide
+	</a>
+</h2>
