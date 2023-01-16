@@ -42,7 +42,7 @@ nav_order: 3
 2. Connect LAN cable (8) to PC and IR cam. Connect Power cable (3) to IR cam (1). System initialisation can be recognised by the camera‐internal shutter noise and the flashing LED on the Ethernet port. The system is ready for operation and can be connected to the software.
     <img title="" src="/documentation/img/2023-01-16-14-00-37-image.png" alt="" width="341" data-align="center">
 
-3. IMPORTANT! Remove the lens protector without putting your fingers in the lens.
+3. IMPORTANT! Remove the lens protector without putting your fingers in the lens. **Focusing can be adjusted by rotating the lens**
 
 4. Open IRBIS3 plus. 
     <img title="" src="/documentation/img/irbis3a.png" alt="" width="640" data-align="center">
