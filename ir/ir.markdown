@@ -35,14 +35,30 @@ nav_order: 3
 
 ## Connecting the camera
 
-0. Have a first look at the [manual](https://aaltofi.sharepoint.com/:b:/r/sites/MMD910/Shared%20Documents/General/Onboarding%20and%20guidelines/Guides/Infrared%20Camera/Manual_IRBIS3_Print.pdf?csf=1&web=1&e=LCZ6sN) of the software. 
+0. Have a first look at the [manual](https://aaltofi.sharepoint.com/:b:/r/sites/MMD910/Shared%20Documents/General/Onboarding%20and%20guidelines/Guides/Infrared%20Camera/Manual_IRBIS3_Print.pdf?csf=1&web=1&e=LCZ6sN) of the software. You can start at page 18 (Chapter 7).
 
 1. Turn on the PC
 
-2. Connect LAN cable (8) to PC and IR cam. Connect Power cable (3) to IR cam (1)
+2. Connect LAN cable (8) to PC and IR cam. Connect Power cable (3) to IR cam (1). System initialisation can be recognised by the camera‐internal shutter noise and the flashing LED on the Ethernet port. The system is ready for operation and can be connected to the software.
    
    <img title="" src="/documentation/img/2023-01-16-14-00-37-image.png" alt="" width="341" data-align="center">
 
 3. IMPORTANT! Remove the lens protector without putting your fingers in the lens.
 
 4. Open IRBIS3 plus. 
+
+<img title="" src="/documentation/img/irbis3a.png" alt="" width="320" data-align="center">
+
+5. Open 'Camera' menu and next click 'Connect':
+
+<img title="" src="/documentation/img/irbis3b.png" alt="" width="320" data-align="center">
+
+6. PIR uc 605 should be selected by default, so you only need to click 'Apply'.
+
+<img title="" src="/documentation/img/irbis3c.png" alt="" width="240" data-align="center">
+
+7. After the connection is established, a live image from the camera will be displayed (live button in the camera menu is active). The live image display can be activated or deactivated by pressing the 'Live' button. The display of the thermal image can be adjusted or optimised using the corresponding tools of IRBIS® 3.1 (selection of the appropriate temperature scale and a suitable colour palette). 'Measure' menu contains all sorts of tools to select areas and points. 'Camera' menu can take snapshots and videos of your measurements. Check point 0 and read the manual for specific measurements, calibrations and other types of reports.
+
+8. To turn off the camera, unplug the AC adapter from the wall outlet. No further steps are required. Remember to cover the lens.
+
+9. Store the IR camera and respective cables in the designed space.
