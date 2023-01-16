@@ -47,11 +47,11 @@ nav_order: 3
 
 4. Open IRBIS3 plus. 
 
-<img title="" src="/documentation/img/irbis3a.png" alt="" width="320" data-align="center">
+<img title="" src="/documentation/img/irbis3a.png" alt="" width="640" data-align="center">
 
 5. Open 'Camera' menu and next click 'Connect':
 
-<img title="" src="/documentation/img/irbis3b.png" alt="" width="320" data-align="center">
+<img title="" src="/documentation/img/irbis3b.png" alt="" width="640" data-align="center">
 
 6. PIR uc 605 should be selected by default, so you only need to click 'Apply'.
 
