@@ -1,3 +1,11 @@
+---
+layout: page
+title: PIR uc 605 user guide
+has_children: false
+permalink: /ir/ir
+nav_order: 1
+---
+
 # MMD User guide PIR uc 605 (IR camera)
 
 ## Must read before first use (or after long time without using) the IR camera
