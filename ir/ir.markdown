@@ -35,6 +35,8 @@ nav_order: 3
 
 ## Connecting the camera
 
+0. Have a first look at the [manual](https://aaltofi.sharepoint.com/:b:/r/sites/MMD910/Shared%20Documents/General/Onboarding%20and%20guidelines/Guides/Infrared%20Camera/Manual_IRBIS3_Print.pdf?csf=1&web=1&e=LCZ6sN) of the software. 
+
 1. Turn on the PC
 
 2. Connect LAN cable (8) to PC and IR cam. Connect Power cable (3) to IR cam (1)
@@ -43,4 +45,4 @@ nav_order: 3
 
 3. IMPORTANT! Remove the lens protector without putting your fingers in the lens.
 
-4. Open IRBIS3 plus
+4. Open IRBIS3 plus. 
