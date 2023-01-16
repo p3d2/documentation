@@ -3,7 +3,7 @@ layout: page
 title: PIR uc 605 user guide
 has_children: false
 permalink: /ir/ir
-nav_order: 2
+nav_order: 3
 ---
 
 # MMD User guide PIR uc 605 (IR camera)
