@@ -12,7 +12,7 @@ nav_order: 3
 
 - Do not move the IR camera of Lab C132 without warning the responsible.
 
-- Read the safety measures notes on how to safely handle the IR camera. In case of doubt check the manuals before asking for help.
+- Read the safety measures notes on how to safely handle the IR camera. In case of doubt, check the [manual](https://aaltofi.sharepoint.com/:b:/r/sites/MMD910/Shared%20Documents/General/Onboarding%20and%20guidelines/Guides/Infrared%20Camera/InfraTec_Manual_PIR-uc-605.pdf?csf=1&web=1&e=OjXueS) before asking for help.
   
   <details>
         <summary>Notes on securing the device</summary>
