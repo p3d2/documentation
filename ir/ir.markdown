@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PIR uc 605 user guide
+title: Infrared Camera
 has_children: false
 permalink: /ir/ir
 nav_order: 3
